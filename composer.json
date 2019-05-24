@@ -1,0 +1,17 @@
+{
+    "name": "hongyukeji\/laravel-storage",
+    "description": "Package description here.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shadow",
+            "email": "admin@hongyuvip.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Hongyukeji\\LaravelStorage\\": "src"
+        }
+    }
+}
