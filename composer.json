@@ -1,5 +1,5 @@
 {
-    "name": "hongyukeji\/laravel-storage",
+    "name": "hongyukeji/laravel-storage",
     "description": "Package description here.",
     "license": "MIT",
     "authors": [
@@ -12,6 +12,13 @@
     "autoload": {
         "psr-4": {
             "Hongyukeji\\LaravelStorage\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hongyukeji\\LaravelStorage\\LaravelStorageServiceProvider"
+            ]
         }
     }
 }
